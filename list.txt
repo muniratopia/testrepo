@@ -1,0 +1,6 @@
+this is list of languages that i know.
+
+1. Java
+2. Html
+3. JS
+4. C++
