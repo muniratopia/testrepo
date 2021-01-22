@@ -1,0 +1,39 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example 1 - D3 </title>
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+
+</head>
+<body>
+	
+	<script>
+		var myCanvas = d3.select("body")
+						.append("svg")
+						.attr("width",500)
+						.attr("height",500);
+
+		var mycir = myCanvas.append("circle")
+						.attr("cx",100)
+						.attr("cy",200)
+						.attr("r",50)
+						.attr("fill","red");
+
+		var myrec = myCanvas.append("rect")
+							.attr("width",100)
+							.attr("height",50)
+							.attr("x",150)
+							.attr("y",300);
+
+		var myline = myCanvas.append("line")
+							.attr("x1",0)
+							.attr("y1",0)
+							.attr("x2",400)
+							.attr("y2",400)
+							.attr("stroke","green")
+							.attr("stroke-width",10);
+	</script>
+
+</body>
+</html>
